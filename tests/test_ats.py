@@ -1,9 +1,11 @@
-import sys
 import os
+import sys
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+# Add the project root directory to Python's path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from ats import calculate_ats_score
+
 
 def test_calculate_ats_score():
     resume = "Python SQL Machine Learning"
