@@ -44,8 +44,8 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t YOUR_USERNAME/resume-ats:latest .
+          docker build -t 9182719659/resume-ats:latest .
 
       - name: Push Docker Image
         run: |
-          docker push YOUR_USERNAME/resume-ats:latest
+          docker push 9182719659/resume-ats:latest
