@@ -1,5 +1,5 @@
-numpy
-pandas 
+streamlit
+pandas
+PyMuPDF
+python-docx
 scikit-learn
-matplotlib
-seaborn
